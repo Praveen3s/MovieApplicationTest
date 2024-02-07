@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NxtTrendzTestSuite" parallel="classes" thread-count="8">
+    <test name="TestMovieApp">
+        <classes>
+            <class name="Movieapptest.LoginPage" />
+            <class name="Movieapptest.HomePage" />
+            <class name="Movieapptest.HeadSection" />
+            <class name="Movieapptest.FuntionalityOfHeaderSection" />
+            <class name="Movieapptest.PopularUi" />
+            <class name="Movieapptest.MovieDetailsPage" />
+            <class name="Movieapptest.SearchOperation" />
+            <class name="Movieapptest.AccountPage" />
+        </classes>
+
+    </test>
+</suite>
